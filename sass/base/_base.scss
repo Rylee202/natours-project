@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* Set root font size to make it easier to convert pixels to rem */
+  font-size: 62.5%;
+  /* Use percentage as default font-size to help those with custom font size on their computers. 100% font size = default: 16px. 62.5% font size = 10px */
+}
+
+body {
+  box-sizing: border-box;
+}
